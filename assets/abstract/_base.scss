@@ -6,6 +6,7 @@ html, body {
     font-weight: 400;
     color: $cor-principal;
     overflow: hidden;
+    scroll-behavior: smooth;
     a {
         text-decoration: none;
     }

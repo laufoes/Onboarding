@@ -4,6 +4,7 @@ html, body {
   font-weight: 400;
   color: #000000;
   overflow: hidden;
+  scroll-behavior: smooth;
 }
 html a, body a {
   text-decoration: none;
