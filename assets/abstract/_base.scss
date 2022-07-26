@@ -1,0 +1,11 @@
+@import './variaveis';
+
+html, body {
+    font-family: $fonte;
+    font-size: 18px;
+    font-weight: 400;
+    color: $cor-principal;
+    a {
+        text-decoration: none;
+    }
+}
