@@ -3,6 +3,7 @@ html, body {
   font-size: 18px;
   font-weight: 400;
   color: #000000;
+  overflow: hidden;
 }
 html a, body a {
   text-decoration: none;
@@ -13,7 +14,6 @@ html a, body a {
   display: flex;
   width: 300%;
   height: 100vh;
-  overflow: hidden;
 }
 .cartoes .cartao {
   display: flex;
@@ -119,4 +119,8 @@ html a, body a {
   border: 1px solid #000000;
   margin: 0 0.4em;
   transition: 400ms;
+}
+.cartao__navegacao .cartao__navegacao--active {
+  background-color: #92E3A9;
+  border: none;
 }/*# sourceMappingURL=styles.css.map */

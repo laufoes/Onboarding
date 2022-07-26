@@ -65,5 +65,9 @@
         border: 1px solid $cor-principal;
         margin: 0 0.4em;
         transition: 400ms;
-    }  
-}
+    }
+    .cartao__navegacao--active {
+        background-color: $cor-destaque;
+        border: none;
+    }
+}  
